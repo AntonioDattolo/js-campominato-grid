@@ -13,12 +13,20 @@ let play = document.getElementById("play");
 //         square.innerHTML = x;
 //     }
 // })
+
+//MILESTONE 4
 //FUNZIONE PER DAR INIZIO AL CICLO DELLA CREAZIONE DELLA GRIGLIA
+let numeroCella;
 function start(){
     for (let x = 0; x < 100; x++) {
         let gridCreations = createSquare(x)
+        var numeroCella = x
+        
     }
+   return numeroCella
 }
+
+
 // ***************FUNZIONE PER LA CREAZIONE DEI QUADRATI DELLA GRIGLIA
 function createSquare(y){
     let square = document.createElement("div");
@@ -26,7 +34,7 @@ function createSquare(y){
     square.classList.add("base-square");
     square.classList.add("bg-square")
     square.innerHTML = y;
-    return square
+    return square, y    
 }
 
 // EVENTO CHE DA IL VIA ALLA CREAZIONE DELLA GRIGLIA
