@@ -8,3 +8,7 @@
 .bg-square{
     background-color: rgb(51, 51, 168);
 }
+
+.selected{
+    background-color: red;
+}
