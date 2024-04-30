@@ -31,3 +31,8 @@ Easy: 100 celle (10x10)
 Medium: 81 celle (9x9)
 Hard: 49 (7x7)
 Ragionate bene su quando vi serve conoscere la selezione dell'utente: è in quel momento che dovrete recuperare il dato.
+
+
+*****************************
+MILESTONE 2
+SELEZIONATO L'ELEMENTO CON LA COSTANTE "GRID" IN CUI INIETTARE SUCCESSIVAMENTE CON IL CICLO "FOR" GLI ELEMENTI HTML CHE ANDRANNO A FORMARE LA GRIGLIA 10X10. SEMPRE ALL'INTERNO DEL CICLO ASSEGNO LA CLASSE "BASE-SQUARE" A OGNI ELEMENTO CHE ANDRò A CREARE.

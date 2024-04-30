@@ -1,0 +1,5 @@
+.base-square{
+    border: 1px solid red;
+    width: calc(100% / 10);
+    height: 129px;
+}
