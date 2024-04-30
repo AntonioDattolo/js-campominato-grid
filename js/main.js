@@ -21,7 +21,7 @@ let play = document.getElementById("play");
 //FUNZIONE PER DAR INIZIO AL CICLO DELLA CREAZIONE DELLA GRIGLIA
 
 function start(){
-    for (let x = 0; x < 100; x++) {
+    for (let x = 1; x <= 100; x++) {
         let gridCreations = createSquare(x) 
         grid.append(gridCreations)      
     }
