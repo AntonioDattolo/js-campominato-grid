@@ -9,14 +9,25 @@
 </head>
 <body>
     <section class="container">
-        <!-- button che mi servirà dopo per la function  -->
-        <div class="text-center my-3">
-            <button class="btn btn-primary" id="play">PLAY</button>
-        </div>
+        <form name="select-diff">
+
+            <!-- button che mi servirà dopo per la function  -->
+            
+                <input  value="play" class="btn btn-primary" id="play" type="button" ></input>
+            
+            <label for="difficoltà"> Difficult</label>
+            <select name="difficoltà" id=" difficult"   >
+                <option id="easy" >EASY</option>
+                <option   id="medium" >MEDIUM</option>
+                <option id="hard" >HARD</option> 
+                
+            </select>
+        </form>
         <div class="my-grid d-flex flex-wrap p-2" id="my-grid">
 
         </div>
         <!-- Creazione griglia con js -->
+      
     </section>
     <script src="./js/main.js"></script>
 </body>

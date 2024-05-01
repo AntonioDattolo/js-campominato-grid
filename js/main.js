@@ -21,10 +21,30 @@ let play = document.getElementById("play");
 //FUNZIONE PER DAR INIZIO AL CICLO DELLA CREAZIONE DELLA GRIGLIA
 
 function start(){
-    for (let x = 1; x <= 100; x++) {
+
+    
+    
+    
+    
+    if( opt[2].selected == true){
+
+        for (let x = 1; x <= 100; x++) {
+            let gridCreations = createSquare(x) 
+            grid.append(gridCreations)      
+        }
+    } else if( opt[1].selected == true){ 
+        for (let x = 1; x <= 81; x++) {
         let gridCreations = createSquare(x) 
-        grid.append(gridCreations)      
+        grid.append(gridCreations)
+        }       
+    }else if( opt[0].selected == true){
+        for (let x = 1; x <= 49; x++) {
+            let gridCreations = createSquare(x) 
+            grid.append(gridCreations)
+        }  
+        
     }
+    
 }
 
 // ***************FUNZIONE PER LA CREAZIONE DEI QUADRATI DELLA GRIGLIA
@@ -42,4 +62,17 @@ function createSquare(y){
 }
 
 // EVENTO CHE DA IL VIA ALLA CREAZIONE DELLA GRIGLIA
-play.addEventListener("click", start)
+play.addEventListener("click", start, {once:true})
+
+//*******BONUS 3*********/
+let form = document.forms[`select-diff`];
+console.log(form)
+let menu = form.difficoltà
+console.log(menu)
+let opt = form.difficoltà.options ;
+console.log(opt)
+
+///*****
+
+ 
+
