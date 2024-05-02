@@ -1,6 +1,18 @@
 .base-square{
     border: 1px solid red;
-    width: calc(100% / 10);
+    width: calc(100% / 10);  
+    height: 129px;
+    color: whitesmoke;
+}
+.base-square9{
+    border: 1px solid red;
+    width: calc(100% / 9);
+    height: 129px;
+    color: whitesmoke;
+}
+.base-square7{
+    border: 1px solid red;
+    width: calc(100% / 7);
     height: 129px;
     color: whitesmoke;
 }
